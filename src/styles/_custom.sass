@@ -56,8 +56,8 @@
   background-color: $color-sistema-i !important
 .fondo-color-sistema-j
   background-color: $color-sistema-j !important
-//.fondo-color-sistema-k
-//  background-color: $color-sistema-k !important
+.fondo-color-sistema-k
+  background-color: $color-sistema-k !important
 //.fondo-color-sistema-p
 //  background-color: $color-sistema-p !important
 //.fondo-color-sistema-h
@@ -147,6 +147,38 @@
     background-size: cover
   &__contenido
     position: relative
+
+.fondo-personalizado-4
+  position: relative
+  overflow: hidden
+  &:before
+    content: ""
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: $color-primario
+  &__contenido
+    position: relative
+  .imgf-1
+    position: absolute
+    max-width: 120px
+    right: 20px
+    transform: translateY(-65%)
+  .imgf-2
+    position: absolute
+    max-width: 120px
+    bottom: 0
+    left: 15px
+    transform: translateY(60%)
+  .imgf-3
+    position: absolute
+    max-width: 471px
+    bottom: 0
+    right: 0
+    transform: translateY(38%) translateX(25%)
 
 //shadows
 .shadow-1
@@ -241,3 +273,78 @@
     transform: translateY(33%) translateX(34%)
 
 //acordiones
+.acordion-personalizado-1
+  &__tarjeta
+    .acordion__header
+      margin-bottom: 0.5rem !important
+    padding-right: 1rem !important
+    padding-left: 1rem !important
+    padding-top: 0.5rem !important
+    border-radius: 10px
+    background-color: $color-primario
+    .acordion__titulo
+      h3
+        color: white !important
+    &.acordion__activo
+      background-color: $color-sistema-k
+      .acordion__titulo
+        h3
+          color: $color-sistema-texto !important
+  .acordion__accion__btn--a
+    background-color: $color-acento-botones !important
+
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: white
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      i
+        display: none
+      span
+        display: block
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      span
+        color: $color-sistema-texto
+    .pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+  .pasos-b__header__item__dot
+    background-color: white
+    border: none
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+    &:hover
+      border-color: #cccccc
+
+.dedede
+  .pasos-b
+    .pasos-b__header__item__dot
+      background-color: white
+      border-color: white
+      .text-bold
+        color: #12263F !important
+
+      border: none
+      i
+        color: #12263F !important
+
+  .pasos-b.color-primario
+    .pasos-b__header__item--active
+      .pasos-b__header__item__dot
+        background-color: #3EE2A8 !important
+        border-color: #3EE2A8 !important
+
+  .pasos-b__header__item--before
+    .pasos-b__header__item__dot
+      background-color: #3EE2A8 !important
+      border-color: #3EE2A8 !important
+
+    
