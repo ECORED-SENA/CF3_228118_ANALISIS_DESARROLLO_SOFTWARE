@@ -2,18 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
-    right: 60%
+    top: 20%
+    left: 5%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 25%
-    right: 20%
+    bottom: 10%
+    left: 27%
   &-3
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    bottom: 20%
-    right: 10%
+    top: 15%
+    right: 20%
 
 
 @keyframes float1
@@ -24,6 +24,11 @@
     transform: translateY(0px)
 
 //banners
+.banner-principal__info
+  @media screen and (max-width: $bp-max-xl)
+    padding-right: 5rem
+  @media screen and (max-width: $bp-max-md)
+    padding-right: 1.125rem
 .banner-principal__img
   padding-bottom: 0 !important
   padding-top: 0.7rem !important
@@ -36,12 +41,11 @@
     background-image: url(../assets/curso/portada/fondo-banner-principal-md.png) !important
   @media screen and (max-width: $bp-max-xs)
     background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
-
 .banner-interno
   height: 160px
   .banner-interno__fondo
+    background-position: right
     background-image: url(../assets/curso/fondo_tema.png) !important
-
 .titulo-principal.color-acento-contenido
   .titulo-principal__numero
     span
@@ -58,6 +62,8 @@
   background-color: $color-sistema-j !important
 .fondo-color-sistema-k
   background-color: $color-sistema-k !important
+.fondo-color-sistema-l
+  background-color: $color-sistema-l !important
 //.fondo-color-sistema-p
 //  background-color: $color-sistema-p !important
 //.fondo-color-sistema-h
@@ -113,24 +119,9 @@
       background-size: cover
   &__contenido
     position: relative
-
-.fondo-personalizado-2
-  position: relative
-  &:before
-    content: ""
-    position: absolute
-    width: 120%
-    left: -10%
-    top: 0
-    bottom: 0
-    z-index: 0
-    background-image: url(../assets/curso/temas/4.png)
-    background-repeat: no-repeat
-    background-size: 100% 100%
-    @media screen and (max-width: $bp-max-md)
-      background-size: cover
-  &__contenido
-    position: relative
+  &.pos-1
+    &:before
+      background-size: 100% 65%
 
 .fondo-personalizado-3
   position: relative
@@ -180,6 +171,25 @@
     right: 0
     transform: translateY(38%) translateX(25%)
 
+.fondo-personalizado-5
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/44.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: -40px
+
 //shadows
 .shadow-1
   -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
@@ -198,9 +208,9 @@
 //tarjetas
 .estilo-tarjetas-personalizado-1
   .tarjeta
-    -webkit-box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1);
-    -moz-box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1);
-    box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1)
+    -moz-box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1)
+    box-shadow: 7px 7px 28px -5px rgba(0,0,0,0.1)
     border-radius: 24px
     background-color: white
     h4,p

@@ -7,6 +7,11 @@
         span 2
       h1 Marcos de trabajos tradicionales
 
+    .row 
+      .col-lg-8
+        p.mb-4 Para el desarrollo de un buen producto de #[em software] se debe iniciar con un excelente proceso de planificación y gestión durante todas las etapas y actividades que involucran transformar una idea o requerimiento en un producto o servicio que será utilizado por un cliente particular.
+      .col-lg-4
+
     .fondo-personalizado-1.mb-5
       .fondo-personalizado-1__contenido.py-5
         .fondo-color-blanco.shadow-1.borde-7.p-3
