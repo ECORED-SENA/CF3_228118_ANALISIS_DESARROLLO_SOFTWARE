@@ -51,6 +51,16 @@
     span
       color: $color-sistema-texto
 
+//bloque de textos
+.bloque-texto-b
+  &:before
+    background-color: $color-sistema-m
+    top: 45%
+    left: 45%
+    bottom: 18%
+  i
+    font-size: 1.9em
+
 //color fondos
 .fondo-color-blanco
   background-color: white !important
@@ -64,6 +74,12 @@
   background-color: $color-sistema-k !important
 .fondo-color-sistema-l
   background-color: $color-sistema-l !important
+.fondo-color-sistema-m
+  background-color: $color-sistema-m !important
+.fondo-color-sistema-n
+  background-color: $color-sistema-n !important
+.fondo-color-sistema-o
+  background-color: $color-sistema-o !important
 //.fondo-color-sistema-p
 //  background-color: $color-sistema-p !important
 //.fondo-color-sistema-h
@@ -98,9 +114,13 @@
     z-index: 0
     background-image: url(../assets/curso/temas/3.png)
     background-repeat: no-repeat
-    background-size: cover
+    background-size: 100% 100%
+    @media screen and (max-width: $bp-max-md)
+      width: 100%
+      left: 0
   &__contenido
     position: relative
+    
 
 .fondo-personalizado-2
   position: relative
@@ -205,6 +225,18 @@
   .img-infografica__item__numero
     font-size: 1.5rem
 
+.imagen-infografica-personalizada-2
+  .img-infografica__item, .img-infografica-b__item
+    width: 8%
+  .tarjeta
+    background-color: white
+  .img-infografica__item__numero
+    font-size: 1.5rem
+  .img-infografica__card
+    width: auto
+    .fondo-color-blanco
+      background-color: #F7EEFE !important
+
 //tarjetas
 .estilo-tarjetas-personalizado-1
   .tarjeta
@@ -228,12 +260,16 @@
       order: 2
       margin-bottom: 0 !important
     &__title
+      font-weight: bold
       margin-bottom: 20px !important
 
 //listas
-.lista-personalizada-1
+ul
   li
     display: flex !important
+
+.lista-personalizada-1
+  li
     margin-bottom: 4px !important
   li > i:first-of-type
     color: $color-primario !important
@@ -357,4 +393,24 @@
       background-color: #3EE2A8 !important
       border-color: #3EE2A8 !important
 
+//burbujas
+.fondo-personalizado-burbuja
+  position: relative
+  .burbuja
+    height: 294px
+    width: 294px
+    background-color: white
+    -webkit-box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    -moz-box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    box-shadow: 9px 9px 50px 0px rgba(0,0,0,0.08)
+    border-radius: 50%
+    position: absolute 
+    &.right
+      right: 0
+      transform: translateX(calc( 50px +  147px))
+    &.left
+      left: 0
+      transform: translateX(calc( -50px -  147px))
+  &__contenido
+    position: relative
     
