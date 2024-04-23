@@ -80,8 +80,10 @@
   background-color: $color-sistema-n !important
 .fondo-color-sistema-o
   background-color: $color-sistema-o !important
-//.fondo-color-sistema-p
-//  background-color: $color-sistema-p !important
+.fondo-color-sistema-p
+  background-color: $color-sistema-p !important
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido !important
 //.fondo-color-sistema-h
 //  background-color: $color-sistema-h !important
 
@@ -142,6 +144,13 @@
   &.pos-1
     &:before
       background-size: 100% 65%
+  &.pos-2
+    &:before
+      bottom: 18px
+      top: -22px
+  &.pos-3
+    &:before
+      top: 38%
 
 .fondo-personalizado-3
   position: relative
@@ -210,6 +219,41 @@
     &:before
       top: -40px
 
+.fondo-personalizado-6
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/66.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: -40px
+
+.fondo-personalizado-7
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/70.png)
+    background-repeat: no-repeat
+    background-size: cover
+  &__contenido
+    position: relative
+
 //shadows
 .shadow-1
   -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16)
@@ -273,6 +317,10 @@ ul
     margin-bottom: 4px !important
   li > i:first-of-type
     color: $color-primario !important
+
+.lista-personalizada-2
+  li
+    margin-bottom: 16px !important
 
 //slyders personalizados
 .slider-personalizado-1
