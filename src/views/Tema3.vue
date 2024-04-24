@@ -389,6 +389,265 @@
               .col-lg-5
                 figure
                   img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 400px;")
+
+    Separador
+
+    #t_3_3.titulo-segundo.color-acento-contenido
+      h2 3.3 #[em Scrum]
+    
+    .fondo-personalizado-6.mb-4
+      .fondo-personalizado-6__contenido
+        p.mb-5 #[em Scrum] es un marco de trabajo ágil de muy amplio uso en la industria del #[em software] que se fundamenta en los valores y principios ágiles definidos en (Manifiesto Ágil, 2001) y donde se definen tres pilares fundamentales según (SCRUMstudy, 2013) los cuales se describen a continuación:
+
+        .row 
+          .col-lg-4.col-md-6.mb-4
+            .estilo-tarjetas-personalizado-2.p-4.borde-16.h-100
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/temas/75.png",style="max-width: 101px;")
+              h4.mb-4.text-center Transparencia
+              ul.lista-ul--color.lista-personalizada-1
+                li
+                  i.fas.fa-cube
+                  span Hace referencia a que cualquier proceso de #[em Scrum] puede ser conocido por cualquiera. Esto es posible por medio de eventos como:
+                li
+                  i.fas.fa-cube
+                  span Las reuniones de revisión y reuniones diarias.
+                li
+                  i.fas.fa-cube
+                  span Artefactos como la pila de producto.
+                li
+                  i.fas.fa-cube
+                  span Cronogramas de lanzamiento.
+                li
+                  i.fas.fa-cube
+                  span Documentos de visión del proyecto.
+                li
+                  i.fas.fa-cube
+                  span Instrumentos de seguimiento, como: el #[em burndown chart] o el tablero de #[em Scrum (Scrum board)].
+          .col-lg-4.col-md-6.mb-4
+            .estilo-tarjetas-personalizado-2.p-4.borde-16.h-100
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/temas/76.png",style="max-width: 101px;")
+              h4.mb-4.text-center Inspección
+              ul.lista-ul--color.lista-personalizada-1
+                li
+                  i.fas.fa-cube
+                  span Permite que cualquiera pueda estar enterado de las actividades realizadas por otros y en general conocer el estado actual de los procesos.
+          .col-lg-4.col-md-6.mb-4
+            .estilo-tarjetas-personalizado-2.p-4.borde-16.h-100
+              figure.mb-4
+                img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 101px;")
+              h4.mb-4.text-center Adaptación
+              ul.lista-ul--color.lista-personalizada-1
+                li
+                  i.fas.fa-cube
+                  span Por medio de la transparencia y la inspección es posible fijar actividades de mejoras que permitan modificar todo tipo de proceso en pro de lograr más altos estándares de calidad.
+
+    p.mb-4 Adicionalmente, este marco de trabajo ágil está estructurado por un conjunto de roles, eventos y artefactos que pueden ser presentados a continuación:
+
+    .fondo-personalizado-burbuja
+      .burbuja.right(style="bottom: 20%;")
+      .fondo-personalizado-burbuja__contenido
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            .titulo-sexto.color-acento-contenido
+              p.mb-0 #[b Figura 3.] Marco de trabajo #[em Scrum]
+            .fondo-color-sistema-r.borde-11.p-4
+              figure
+                img.mx-auto(src="@/assets/curso/temas/78.png",style="max-width: 964px;",alt="El diagrama describe el proceso de Scrum, donde el Product Owner gestiona las prioridades del proyecto que el equipo acuerda completar en ciclos de 1 a 4 semanas llamados Sprints. Se realizan reuniones diarias para supervisar el avance y al final del Sprint se revisa el trabajo terminado y se evalúan los métodos de trabajo para mejorarlos en el siguiente ciclo, manteniendo fechas de entrega fijas.")
+
+        p.mb-5 Dentro de los roles hay una división en dos categorías fundamentales:
+
+        .row.justify-content-center.mb-5(data-aos="fade")
+          .col-lg-5.col-md-6.mb-4
+            .d-flex.w-100.flex-column.h-100
+              .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                p.mb-0.text-white.text-center #[b Los roles centrales]
+              .fondo-color-sistema-l.p-3.h-100
+                ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
+                  li
+                    i.far.fa-check-circle
+                    span Hacen referencia a los requeridos obligatoriamente para la creación de un producto están altamente comprometidos y de los cuales depende el éxito o no de un proyecto.
+          .col-lg-5.col-md-6.mb-4
+            .d-flex.w-100.flex-column.h-100
+              .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #6D18B9;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                p.mb-0.text-white.text-center #[b Los roles no centrales]
+              .fondo-color-sistema-l.p-3.h-100
+                ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
+                  li
+                    i.far.fa-check-circle
+                    span Refieren a todo el personal interesado en el proyecto pueden interactuar con el equipo, pero no son los responsables del éxito del mismo, dentro de esta categoría entran los #[em stakeholders], directivos, gerentes, #[em marketing], asesores, etc.
+
+    p.mb-5 Por otro lado, hay tres roles centrales dentro del marco de trabajo de #[em Scrum] (SCRUMstudy, 2013) que se describen a continuación:
+
+    p.mb-0(style="color: red;") estas tarjetas
+    .crd_hover_txt.mb-4
+      .crd_hover_txt--img
+        figure
+          img(src="@/assets/curso/temas/1.png",style="max-width: 100px;")
+      .crd_hover_txt--body
+        h4.mb-3 Reporte de ventas diarias
+        p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
+
+    .row.align-items-center.mb-4
+      .col-auto.d-none.d-md-block
+        img.mx-auto(src="@/assets/curso/temas/48.png",style="max-width: 85px;")
+      .col
+        p.mb-0 Además de los roles, #[em scrum] define un conjunto de eventos con participantes y objetivos claros que se desarrollan en momentos particulares del flujo general de #[em scrum], a continuación, se detalla cada uno de estos:
+
+    .fondo-personalizado-2.pos-4.mb-5
+      .fondo-personalizado-2__contenido
+        .row.justify-content-center.mb-5
+          .col-lg-10
+            .fondo-personalizado-4
+              img.imgf-1(src="@/assets/curso/temas/15.png")
+              img.imgf-2(src="@/assets/curso/temas/16.png")
+              img.imgf-3(src="@/assets/curso/temas/29.png")
+              .fondo-personalizado-4__contenido.p-4.pb-5
+                PasosB.pasos-personalizado-2
+                  .row.justify-content-center(titulo="<em>Sprint</em>")
+                    .col-md-6.col-lg-6.mb-4.mb-md-0
+                      p.mb-4.text-white #[em Sprint]
+                      p.text-white.mb-0 Es el corazón de scrum, una iteración acotada entre 2 y 4 semanas donde se realiza un ciclo completo de actividades de análisis, diseño, construcción y pruebas para desarrollar una versión del producto potencialmente. 
+      
+                    .col-md-6.col-lg-4
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/79.png",style="max-width: 295px;")
+                  .row.justify-content-center(titulo="Planeación del <em>sprint</em>")
+                    .col-md-6.col-lg-6.mb-4.mb-md-0
+                      p.mb-4.text-white Planeación del #[em sprint]
+                      p.text-white.mb-0 Reunión realizada antes del inicio del #[em sprint] donde se definen los requerimientos a desarrollar, se detallan en tareas concretas, se estima el tiempo/esfuerzo y se distribuyen las responsabilidades.
+      
+                    .col-md-6.col-lg-4
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/80.png",style="max-width: 295px;")
+                  .row.justify-content-center(titulo="Reunión diaria <em>(Daily Meeting)</em>")
+                    .col-md-6.col-lg-6.mb-4.mb-md-0
+                      p.mb-4.text-white Reunión diaria #[em (Daily Meeting)]
+                      p.text-white.mb-0 Reunión corta al inicio de cada día donde el equipo informa sobre su trabajo previo, las actividades del día y los problemas encontrados. Debe ser breve y alinearse con los pilares de transparencia e inspección.
+      
+                    .col-md-6.col-lg-4
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/81.png",style="max-width: 295px;")
+                  .row.justify-content-center(titulo="Revisión del <em>sprint</em>")
+                    .col-md-6.col-lg-6.mb-4.mb-md-0
+                      p.mb-4.text-white Revisión del #[em sprint]
+                      p.text-white.mb-0 Reunión al final del #[em sprint] donde el equipo de desarrollo muestra los resultados. Para #[em sprints] de 4 semanas, se usan 4 horas para la revisión.
+      
+                    .col-md-6.col-lg-4
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/82.png",style="max-width: 295px;")
+                  .row.justify-content-center(titulo="Reunión de retrospectiva")
+                    .col-md-6.col-lg-6.mb-4.mb-md-0
+                      p.mb-4.text-white Reunión de retrospectiva
+                      p.text-white.mb-0 Última reunión después de la revisión del #[em sprint] para autoevaluar el desempeño del equipo durante el #[em sprint], identificando y documentando aprendizajes y respondiendo a preguntas clave sobre lo que se debe continuar, detener o mejorar.
+      
+                    .col-md-6.col-lg-4
+                      figure
+                        img.mx-auto(src="@/assets/curso/temas/83.png",style="max-width: 295px;")
+
+        p.mb-5 Finalmente, el marco de trabajo #[em scrum] define un conjunto de artefactos que permiten registrar y gestionar información clave para asegurar los tres pilares fundamentales y proveen información valiosa durante todo el proceso de desarrollo de #[em software]. Entre los artefactos representativos de este se encuentran los siguientes:
+
+        .row.justify-content-center
+          .col-lg-10
+            PasosA.color-primario.pasos-a-personalizado-1(tipo="n")
+              .row.align-items-center
+                .col-md-7.mb-4.mb-md-0
+                  p.mb-4.fw-bold Pila de producto #[em (Product Backlog)]:
+                  p.mb-0 Lista priorizada de requerimientos generalmente descritos en formato de historias de usuarios que representa todas las características del sistema a construir.
+                .col-md-5
+                  figure
+                    img.mx-auto.me-md-0(src='@/assets/curso/temas/84.png',style="max-width: 295px;")
+              .row.align-items-center.justify-content-center
+                .col-md-5.mb-4.mb-md-0
+                  figure
+                    img.mx-auto.me-md-0(src='@/assets/curso/temas/85.png',style="max-width: 287px;")
+                .col-md-7
+                  p.mb-4.fw-bold.text-start Pila del #[em sprint (Sprint Backlog)]
+                  p.mb-0.text-start Lista de requerimientos seleccionados desde el #[em product backlog] por el equipo de trabajo para ser desarrollados durante un #[em sprint] particular. este es uno de los artefactos generados en la reunión de planeación del #[em sprint].
+              .row.align-items-center
+                .col-md-7.mb-4.mb-md-0
+                  p.mb-4.fw-bold #[em Burndown Chart]
+                  p.mb-0 Es un gráfico visual de dos ejes que muestra a los equipos la cantidad de trabajo pendiente por completar (eje Y) y el tiempo disponible para hacerlo (eje X). Este generalmente se realiza por cada #[em sprint] ubicando la cantidad de trabajo a realizar del #[em sprint backlog] (usualmente medido por puntos de historia u de horas de trabajo) en un tiempo 0 y por cada día finalizado se resta la cantidad de puntos de historia u horas de cada tarea completada.
+
+                .col-md-5
+                  figure
+                    img.mx-auto.me-md-0(src='@/assets/curso/temas/86.png',style="max-width: 295px;")
+
+    .fondo-personalizado-burbuja
+      .burbuja.left(style="top: 160px;")
+      .burbuja.right(style="bottom: 0px;")
+      .fondo-personalizado-burbuja__contenido
+        .row.mb-5
+          .col-lg-7.mb-4.mb-lg-0
+            p.mb-0 Por otro lado, también es posible usar este mismo gráfico para representar el avance general del proyecto ubicando en el eje Y la cantidad total de horas o esfuerzo del #[em Product Backlog] y en el eje X el número de #[em Sprints] proyectados. Cada punto representa el total acumulado hasta ese #[em Sprint] y se une mediante una línea, lo que permite determinar visualmente si el flujo de trabajo está en una situación óptima o no respecto al tiempo restante para completar el #[em Sprint] actual.
+          .col-lg-5
+            figure
+              img.mx-auto(src="@/assets/curso/temas/87.png",style="max-width: 502px;")
+
+        .fondo-personalizado-2.pos-5
+          .fondo-personalizado-2__contenido
+            .row.justify-content-center.mb-5
+              .col-lg-6
+                .titulo-sexto.color-acento-contenido
+                  p.mb-0 #[b Figura 4.] #[em Burndown Chart]
+                figure.mb-4.mb-lg-0
+                  .fondo-color-sistema-r.p-3.borde-8
+                    img.mx-auto(src="@/assets/curso/temas/88.png",style="max-width: 552px;",alt="La figura presenta un gráfico de Sprint Burndown que muestra el progreso de trabajo en un proyecto a través del tiempo, comparando el avance planeado con el real y la tendencia basada en la actividad diaria. Incluye una referencia a la fuente de la imagen del año 2019.")
+                  figcaption.mt-1(style="font-size: 14px;font-weight: normal;") Nota. Tomada de intl-blog.imgix.net (2019).
+
+            .row.mb-5
+              .col-lg-7.mb-4.mb-lg-0
+                p.mb-0 #[b Tablero de #[em Scrum (Scrumboard)]:] es un elemento visual donde se integra la mayor parte de los elementos del marco de trabajo #[em Scrum], en él se indica la carga de trabajo, el estado actual de cada una de las actividades y sus respectivos responsables. Este es un elemento que se sincroniza de manera permanente y facilita la implementación de los pilares de transparencia, inspección y adaptabilidad. Si bien se aconseja el uso de un tablero, existen diferentes tipos de herramientas digitales que permiten la implementación de un tablero de #[em Scrum].
+              .col-lg-5
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/89.png",style="max-width: 502px;")
+            
+            .row.justify-content-center.mb-5
+              .col-lg-8
+                .titulo-sexto.color-acento-contenido
+                  p.mb-0 #[b Figura 5.] Tablero de #[em Scrum]
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/90.png",style="max-width: 820px;",alt="La figura es un tablero de tareas de Scrum que ilustra las etapas de las tareas desde el backlog hasta su finalización, incluyendo columnas para tareas en progreso, revisión, pruebas y bloqueadas.")
+
+    p.mb-5 Adicionalmente es de vital importancia mencionar que entre los principales beneficios del marco de trabajo #[em Scrum] se encuentran los siguientes elementos:
+
+    .fondo-personalizado-7.pos-1.mb-5
+      .fondo-personalizado-7__contenido
+        .row.align-items-center
+          .col-lg-8
+            ul.lista-ul--color.lista-personalizada-2
+              li
+                span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") a
+                span Es posible gestionar las expectativas del cliente de manera regular, ya que, este puede y debe participar en las reuniones de revisión, por lo que, está enterado todo el tiempo del estado actual del proyecto.
+              li
+                span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") b
+                span El cliente puede obtener resultados importantes y utilizables desde las primeras iteraciones, ya que, la lista de producto está priorizada para ofrecer mayor valor en el menor tiempo posible y porque cada finalización de #[em Sprint] debe tener como resultado una versión totalmente funcional.
+              li
+                span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") c
+                span El proyecto puede iniciar con requerimientos de muy alto nivel y es fácil administrar los cambios.
+              li
+                span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") d
+                span La participación constante del cliente permite mitigar riesgos del proyecto desde sus primeras etapas.
+              li
+                span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") e
+                span Los procesos de retrospectiva permiten establecer actividades permanentes de mejora continua en función de las experiencias del equipo.
+          .col-lg-4.order-first
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/91.png",style="max-width: 393px;")
+    
+    .cont-titulo-decorativo.p-2.mt-5.mb-5
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/img-titulo-dec.png")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Planeación de proyectos de software
+    
+    
+
+
+
     
 
 </template>

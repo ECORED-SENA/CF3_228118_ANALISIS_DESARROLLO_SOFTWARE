@@ -23,6 +23,27 @@
   100%
     transform: translateY(0px)
 
+.cont-titulo-decorativo
+  position: relative
+  max-width: max-content
+  figure
+    width: 40px
+    position: relative
+  h3
+    position: relative
+    color: white
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    right: 0
+    top: 23px
+    background: rgb(119,55,240)
+    background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
+    border-radius: 6px
+    z-index: 0
+
 //banners
 .banner-principal__info
   @media screen and (max-width: $bp-max-xl)
@@ -84,8 +105,10 @@
   background-color: $color-sistema-p !important
 .fondo-color-acento-contenido
   background-color: $color-acento-contenido !important
-//.fondo-color-sistema-h
-//  background-color: $color-sistema-h !important
+.fondo-color-sistema-q
+  background-color: $color-sistema-q !important
+.fondo-color-sistema-r
+  background-color: $color-sistema-r !important
 
 //bordes
 .borde-7
@@ -102,6 +125,8 @@
   border-radius: 20px !important
 .borde-10
   border-radius: 10px !important
+.borde-11
+  border-radius: 11px !important
 
 //fondos personalizados
 .fondo-personalizado-1
@@ -151,6 +176,14 @@
   &.pos-3
     &:before
       top: 38%
+  &.pos-4
+    &:before
+      top: 18%
+      bottom: 48%
+  &.pos-5
+    &:before
+      top: 37%
+      bottom: 30%
 
 .fondo-personalizado-3
   position: relative
@@ -253,6 +286,10 @@
     background-size: cover
   &__contenido
     position: relative
+  &.pos-1
+    &:before
+      background-size: 100% 100%
+
 
 //shadows
 .shadow-1
@@ -292,6 +329,27 @@
     h4,p
       color: $color-sistema-texto
       text-align: center
+
+.estilo-tarjetas-personalizado-2
+  background-color: $color-primario
+  cursor: pointer
+  transition: background-color .5s, color .5s
+  h4 
+    color: white
+  ul
+    color: white
+    i.fas.fa-cube
+      color: white !important
+      font-size: 0.7rem
+  &:hover
+    background-color: $color-sistema-q
+    h4 
+      color: $color-sistema-texto
+    ul
+      color: $color-sistema-texto
+      i.fas.fa-cube
+        color: $color-sistema-texto !important
+
 
 //tabs
 .tabs-b
@@ -418,28 +476,48 @@ ul
     &:hover
       border-color: #cccccc
 
-.dedede
-  .pasos-b
-    .pasos-b__header__item__dot
-      background-color: white
-      border-color: white
-      .text-bold
-        color: #12263F !important
-
-      border: none
-      i
-        color: #12263F !important
-
-  .pasos-b.color-primario
-    .pasos-b__header__item--active
-      .pasos-b__header__item__dot
-        background-color: #3EE2A8 !important
-        border-color: #3EE2A8 !important
-
+.pasos-personalizado-2
+  .pasos-b__header__item__tittle
+    color: white
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: white
   .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
     .pasos-b__header__item__dot
-      background-color: #3EE2A8 !important
-      border-color: #3EE2A8 !important
+      background-color: transparent
+      border: 3px solid $color-acento-contenido
+      i
+        display: none
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: transparent
+      border: 7px solid $color-acento-contenido
+      span
+        color: $color-sistema-texto
+    .pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+  .pasos-b__header__item__dot
+    min-width: 26px
+    min-height: 26px
+    max-width: 26px
+    max-height: 26px
+    background-color: white
+    border: none
+    span
+      display: none
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+    &:hover
+      border-color: #cccccc
+
+.pasos-a-personalizado-1
+  .pasos-a__linea__esquina__linea
+    border-radius: 0
+
 
 //burbujas
 .fondo-personalizado-burbuja
