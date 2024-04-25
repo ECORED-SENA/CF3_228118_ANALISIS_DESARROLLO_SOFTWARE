@@ -292,6 +292,51 @@
     &:before
       background-size: 100% 100%
 
+.fondo-personalizado-8
+  position: relative
+  overflow: hidden
+  &:before
+    content: ""
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: #E8EEFE
+  &__contenido
+    position: relative
+  .imgf-1
+    position: absolute
+    max-width: 141px
+    left: 0
+    top: 0
+    transform: translateX(-55%) translateY(-15%)
+  .imgf-2
+    position: absolute
+    max-width: 88px
+    bottom: 0
+    left: 0px
+    transform: translateY(50%) translateX(-50%)
+  .imgf-3
+    position: absolute
+    max-width: 56px
+    top: 0
+    left: 300px
+    transform: translateY(38%) translateX(25%)
+  .imgf-4
+    position: absolute
+    max-width: 107px
+    top: 0
+    right: 0
+    transform: translateY(-48%) translateX(48%)
+  .imgf-5
+    position: absolute
+    max-width: 367px
+    bottom: 0
+    right: 0
+    transform: translateY(52%) translateX(64%)
+
 
 //shadows
 .shadow-1
@@ -425,6 +470,26 @@ ul
     bottom: 0
     right: 0
     transform: translateY(33%) translateX(34%)
+
+.slider-personalizado-2
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    &:before
+      content: ""
+      background-color: #FFCE00
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1rem
+      color: $color-sistema-texto
 
 //acordiones
 .acordion-personalizado-1

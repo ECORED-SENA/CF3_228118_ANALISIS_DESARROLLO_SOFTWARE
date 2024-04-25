@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Marcos de trabajo ágiles
 
-    p.mb-4 Los marcos de trabajo ágiles, también conocidos como metodologías ágiles para el desarrollo de #[em software], surgen como alternativa para gestionar proyectos en los que no es posible definir completamente los requerimientos y sus estimaciones en la fase inicial, o cuando se requiere adaptabilidad a lo largo del desarrollo del #[em software]. (Maida y Pacienzia, 2015).
+    p.mb-4(data-aos="fade") Los marcos de trabajo ágiles, también conocidos como metodologías ágiles para el desarrollo de #[em software], surgen como alternativa para gestionar proyectos en los que no es posible definir completamente los requerimientos y sus estimaciones en la fase inicial, o cuando se requiere adaptabilidad a lo largo del desarrollo del #[em software]. (Maida y Pacienzia, 2015).
 
     .row.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         .fondo-color-sistema-n.borde-10.p-4.mb-4
           p.mb-0 Estas metodologías ofrecen un conjunto de pautas y principios diseñados para facilitar y dar prioridad a la entrega de productos por encima de los procesos de documentación exhaustiva, simplificándolos y promoviendo la participación activa del cliente desde las primeras etapas del proyecto.
         .row
@@ -18,37 +18,37 @@
             img.mx-auto(src="@/assets/curso/temas/48.png",style="max-width: 85px;")
           .col
             p.mb-0 El origen de las metodologías ágiles se remonta al año 2001 con la publicación del Manifiesto Ágil para el Desarrollo de #[em Software], que establece cuatro valores fundamentales. (Manifiesto Ágil, 2001):
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/64.png",style="max-width: 502px;")
     
     .row
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-up")
         .fondo-color-primario.py-4.px-4.text-center.borde-20.h-100
           span.d-inline-block.fas.fa-cube.text-white.mb-3(style="font-size: 1.5rem;")
           h4.mb-0.text-white Individuos e interacciones sobre procesos y herramientas.
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-down")
         .fondo-color-sistema-p.py-4.px-4.text-center.borde-20.h-100
           span.d-inline-block.fas.fa-cube.text-white.mb-3(style="font-size: 1.5rem;")
           h4.mb-0.text-white #[em Software] funcionando sobre documentación extensiva.
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-up")
         .fondo-color-sistema-p.py-4.px-4.text-center.borde-20.h-100
           span.d-inline-block.fas.fa-cube.text-white.mb-3(style="font-size: 1.5rem;")
           h4.mb-0.text-white Colaboración con el cliente sobre negociación contractual.
-      .col-lg-3.col-md-6.mb-4
+      .col-lg-3.col-md-6.mb-4(data-aos="fade-down")
         .fondo-color-primario.py-4.px-4.text-center.borde-20.h-100
           span.d-inline-block.fas.fa-cube.text-white.mb-3(style="font-size: 1.5rem;")
           h4.mb-0.text-white Respuesta ante el cambio sobre seguir un plan.
     
-    p.mb-5 Adicionalmente a los valores ágiles anteriormente listados, el manifiesto ágil establece 12 principios ágiles para materializar los valores definidos (Manifiesto Ágil, 2001):
+    p.mb-5(data-aos="fade-left") Adicionalmente a los valores ágiles anteriormente listados, el manifiesto ágil establece 12 principios ágiles para materializar los valores definidos (Manifiesto Ágil, 2001):
 
     .fondo-personalizado-6.mb-3
       .fondo-personalizado-6__contenido
         .row.align-items-center.py-5
-          .col-lg-4
+          .col-lg-4(data-aos="fade-down")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/65.png",style="max-width: 400px;")
-          .col-lg-8
+          .col-lg-8(data-aos="fade-up")
             ul.lista-ul--color.lista-personalizada-2
               li
                 span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") a
@@ -89,18 +89,18 @@
 
     Separador
 
-    #t_3_1.titulo-segundo.color-acento-contenido
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 3.1 Programación Extrema - XP
 
     .row.mb-4 
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="zoom-in-out")
         p.mb-4 XP, abreviatura de #[em Extreme Programming], es un marco de desarrollo de #[em software] ágil diseñado para producir #[em software] de alta calidad en entornos con requisitos muy cambiantes. Se enfoca en contextos que presentan riesgos asociados a plazos fijos, la implementación de tecnologías emergentes y equipos de trabajo reducidos localizados en el mismo lugar.
         p.mb-0 En XP se definen cinco valores según Beck y Andrés (2004):
-      .col-lg-5
+      .col-lg-5(data-aos="zoom-in-out")
         figure
           img.mx-auto(src="@/assets/curso/temas/67.png",style="max-width: 502px;")
 
-    TabsB.color-acento-botones.mb-5
+    TabsB.color-acento-botones.mb-5(data-aos="flip-up")
       .fondo-personalizado-3(titulo="Comunicación" :icono="require('@/assets/curso/temas/23.png')")
         .fondo-personalizado-3__contenido.py-5.px-4.px-lg-0
           .row.justify-content-center.align-items-center
@@ -148,18 +148,18 @@
               p.mb-0 Es fundamental que los miembros del equipo se respeten mutuamente para facilitar una comunicación efectiva y un trabajo en equipo armónico. Cada integrante contribuye significativamente al logro del objetivo común.
 
     .row.align-items-center.mb-4
-      .col-lg-7
+      .col-lg-7(data-aos="fade")
         .fondo-color-sistema-n.borde-10.p-4
           p.mb-0 Además de sus valores, XP se distingue por establecer un conjunto de 12 prácticas de desarrollo de #[em software]. Aunque estas prácticas pueden adoptarse de manera independiente, su importancia se magnifica cuando se implementan conjuntamente (Jeffries, 2011).
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/68.png",style="max-width: 502px;")
 
     .row.mb-5
-      .col-lg-4
+      .col-lg-4(data-aos="fade-up")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/28.png",style="max-width: 400px;")
-      .col-lg-8
+      .col-lg-8(data-aos="fade-down")
         AcordionA.acordion-personalizado-1(tipo="a" clase-tarjeta="acordion-personalizado-1__tarjeta")
           div.ms-md-5(titulo="El juego de la planificación")
             p.ps-md-2.mb-5.pt-md-0.pt-2 Consiste en una reunión de planificación donde el equipo de desarrollo y el cliente discuten y priorizan las características a desarrollar, promoviendo una comprensión mutua de los requisitos.
@@ -174,21 +174,58 @@
           div.ms-md-5(titulo="Refactorización")
             p.ps-md-2.mb-5.pt-md-0.pt-2 Se centra en la eliminación de elementos innecesarios, desacoplando componentes y reduciendo redundancias para mantener el código limpio, entendible y fácil de modificar.
 
-    p.mb-4 Los roles fundamentales establecidos por este marco de trabajo ágil son los siguientes: cliente, programador, #[em coach, tester y mánager].
+    p.mb-4(data-aos="fade-right") Los roles fundamentales establecidos por este marco de trabajo ágil son los siguientes: cliente, programador, #[em coach, tester y mánager].
 
-    p(style="color: red;") Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quod excepturi officia exercitationem iusto sunt provident a ut rerum, tenetur quae facere aliquid laudantium voluptatum, explicabo facilis vel? Corporis, porro!
+    .fondo-personalizado-8.mb-4
+      img.imgf-1(src="@/assets/curso/temas/100.png")
+      img.imgf-2(src="@/assets/curso/temas/101.png")
+      img.imgf-3(src="@/assets/curso/temas/102.png")
+      img.imgf-4(src="@/assets/curso/temas/103.png")
+      img.imgf-5(src="@/assets/curso/temas/104.png")
+      .fondo-personalizado-8__contenido.pe-3.pt-5
+        .row.align-items-end
+          .col-lg-4
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/94.png",style="max-width: 441px;")
+          .col-lg-8
+            SlyderF.slider-personalizado-2.mb-3(columnas="col-lg-6").pb-4
+              .tarjeta.color-primario.borde-16.p-3
+                figure.mb-2
+                  img.mx-auto(src="@/assets/curso/temas/95.png",style="max-width: 86px;")
+                p.mb-0.text-white.text-center Los clientes son los encargados del establecimiento de las prioridades del proyecto y las necesidades puntuales.
+
+              .tarjeta.color-primario.borde-16.p-3
+                figure.mb-2
+                  img.mx-auto(src="@/assets/curso/temas/96.png",style="max-width: 86px;")
+                p.mb-0.text-white.text-center Los programadores se encargan de transformar esos requerimientos en bloques de código funcional, son el centro del marco de #[em Extreme Programming].
+
+              .tarjeta.color-primario.borde-16.p-3
+                figure.mb-2
+                  img.mx-auto(src="@/assets/curso/temas/97.png",style="max-width: 86px;")
+                p.mb-0.text-white.text-center Los #[em testers] se encargan de la aplicación de pruebas para garantizar la calidad de los productos y servicios desarrollados.
+
+              .tarjeta.color-primario.borde-16.p-3
+                figure.mb-2
+                  img.mx-auto(src="@/assets/curso/temas/98.png",style="max-width: 86px;")
+                p.mb-0.text-white.text-center El #[em coach] es una figura encargada de brindar asesoría a los miembros del equipo y son los que definen el rumbo del proyecto.
+
+              .tarjeta.color-primario.borde-16.p-3
+                figure.mb-2
+                  img.mx-auto(src="@/assets/curso/temas/99.png",style="max-width: 86px;")
+                p.mb-0.text-white.text-center El #[em manager] se encarga de la coordinación de actividades, del aseguramiento de los recursos requeridos para el proyecto y quien tiene la responsabilidad de la comunicación externa.
+
 
     Separador
 
-    #t_3_2.titulo-segundo.color-acento-contenido
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-out")
       h2 3.2 Desarrollo rápido de aplicaciones - RAD
 
-    p.mb-4 RAD (Desarrollo Rápido de Aplicaciones) es una metodología ágil de desarrollo de #[em software] que se enfoca en la rápida creación de aplicaciones a través de iteraciones frecuentes y retroalimentación constante. Fue propuesta por James Martin en 1991. Algunas características fundamentales de RAD son:
+    p.mb-4(data-aos="fade") RAD (Desarrollo Rápido de Aplicaciones) es una metodología ágil de desarrollo de #[em software] que se enfoca en la rápida creación de aplicaciones a través de iteraciones frecuentes y retroalimentación constante. Fue propuesta por James Martin en 1991. Algunas características fundamentales de RAD son:
 
     .fondo-personalizado-7.mb-5
       .fondo-personalizado-7__contenido
         .row.align-items-center
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-left")
             ul.lista-ul--color.lista-personalizada-2
               li
                 span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") 1
@@ -202,18 +239,18 @@
               li
                 span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") 4
                 span Mejor gestión del riesgo, ya que las partes interesadas discuten y abordan cualquier vulnerabilidad mientras se construyen los productos.
-          .col-lg-5
+          .col-lg-5(data-aos="fade-left")
             figure
               img.mx-auto(src="@/assets/curso/temas/69.png",style="max-width: 505px;")
 
-    p.mb-5 A continuación, se describen las fases propuestas en RAD.
+    p.mb-5(data-aos="fade-left") A continuación, se describen las fases propuestas en RAD.
 
     .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 2.] Fases definidas en RAD
 
-    .fondo-personalizado-2.pos-2.mb-4
+    .fondo-personalizado-2.pos-2.mb-4(data-aos="zoom-out-up")
       .fondo-personalizado-2__contenido
         .row.justify-content-center.mb-5
           .col-lg-10
@@ -228,7 +265,7 @@
       .fondo-personalizado-2__contenido
         .row.justify-content-center.mb-5
           .col-lg-10 
-            .fondo-personalizado-4
+            .fondo-personalizado-4(data-aos="flip-up")
               img.imgf-1(src="@/assets/curso/temas/15.png")
               img.imgf-2(src="@/assets/curso/temas/16.png")
               img.imgf-3(src="@/assets/curso/temas/29.png")
@@ -306,14 +343,14 @@
                         img.mx-auto(src="@/assets/curso/temas/34.png",style="max-width: 295px;")
 
         .row.pb-5
-          .col-lg-7.pb-5
+          .col-lg-7.pb-5(data-aos="fade-left")
             p.mb-0 Según HKSAR (2009), los roles más importantes en la metodología RAD incluyen: el facilitador, el escriba, el equipo SWAT, el administrador del modelo, el administrador de la base de datos, el equipo de planificación del taller, el equipo de diseño de usuario, el equipo de soporte de construcción y el equipo de transición. A continuación, se describen las características más destacadas de cada rol.
-          .col-lg-5.order-first.order-lg-last.pb-5
+          .col-lg-5.order-first.order-lg-last.pb-5(data-aos="fade-right")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/72.png",style="max-width: 502px;")
 
     .row.mb-5
-      .col-lg-7
+      .col-lg-7(data-aos="fade-up")
         AcordionA.acordion-personalizado-1(tipo="a" clase-tarjeta="acordion-personalizado-1__tarjeta")
           div.ms-md-5(titulo="Facilitador")
             .row.justify-content-start
@@ -351,15 +388,15 @@
                 figure
                   img.mx-auto(src="@/assets/curso/temas/39.png",style="max-width: 400px;")
 
-      .col-lg-5.order-first.order-lg-last
+      .col-lg-5.order-first.order-lg-last(data-aos="fade-down")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/73.png",style="max-width: 505px;")
     
     .row 
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/74.png",style="max-width: 505px;")
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         AcordionA.acordion-personalizado-1(tipo="a" clase-tarjeta="acordion-personalizado-1__tarjeta")
           div.ms-md-5(titulo="Equipo de planificación de los <em>workshops</em>")
             .row.justify-content-start
@@ -392,15 +429,15 @@
 
     Separador
 
-    #t_3_3.titulo-segundo.color-acento-contenido
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3 #[em Scrum]
     
     .fondo-personalizado-6.mb-4
       .fondo-personalizado-6__contenido
-        p.mb-5 #[em Scrum] es un marco de trabajo ágil de muy amplio uso en la industria del #[em software] que se fundamenta en los valores y principios ágiles definidos en (Manifiesto Ágil, 2001) y donde se definen tres pilares fundamentales según (SCRUMstudy, 2013) los cuales se describen a continuación:
+        p.mb-5(data-aos="fade") #[em Scrum] es un marco de trabajo ágil de muy amplio uso en la industria del #[em software] que se fundamenta en los valores y principios ágiles definidos en (Manifiesto Ágil, 2001) y donde se definen tres pilares fundamentales según (SCRUMstudy, 2013) los cuales se describen a continuación:
 
         .row 
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="flip-up")
             .estilo-tarjetas-personalizado-2.p-4.borde-16.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/75.png",style="max-width: 101px;")
@@ -424,7 +461,7 @@
                 li
                   i.fas.fa-cube
                   span Instrumentos de seguimiento, como: el #[em burndown chart] o el tablero de #[em Scrum (Scrum board)].
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="flip-up")
             .estilo-tarjetas-personalizado-2.p-4.borde-16.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/76.png",style="max-width: 101px;")
@@ -433,7 +470,7 @@
                 li
                   i.fas.fa-cube
                   span Permite que cualquiera pueda estar enterado de las actividades realizadas por otros y en general conocer el estado actual de los procesos.
-          .col-lg-4.col-md-6.mb-4
+          .col-lg-4.col-md-6.mb-4(data-aos="flip-up")
             .estilo-tarjetas-personalizado-2.p-4.borde-16.h-100
               figure.mb-4
                 img.mx-auto(src="@/assets/curso/temas/77.png",style="max-width: 101px;")
@@ -443,11 +480,11 @@
                   i.fas.fa-cube
                   span Por medio de la transparencia y la inspección es posible fijar actividades de mejoras que permitan modificar todo tipo de proceso en pro de lograr más altos estándares de calidad.
 
-    p.mb-4 Adicionalmente, este marco de trabajo ágil está estructurado por un conjunto de roles, eventos y artefactos que pueden ser presentados a continuación:
+    p.mb-4(data-aos="fade") Adicionalmente, este marco de trabajo ágil está estructurado por un conjunto de roles, eventos y artefactos que pueden ser presentados a continuación:
 
     .fondo-personalizado-burbuja
       .burbuja.right(style="bottom: 20%;")
-      .fondo-personalizado-burbuja__contenido
+      .fondo-personalizado-burbuja__contenido(data-aos="flip-up")
         .row.justify-content-center.mb-5
           .col-lg-10
             .titulo-sexto.color-acento-contenido
@@ -456,10 +493,10 @@
               figure
                 img.mx-auto(src="@/assets/curso/temas/78.png",style="max-width: 964px;",alt="El diagrama describe el proceso de Scrum, donde el Product Owner gestiona las prioridades del proyecto que el equipo acuerda completar en ciclos de 1 a 4 semanas llamados Sprints. Se realizan reuniones diarias para supervisar el avance y al final del Sprint se revisa el trabajo terminado y se evalúan los métodos de trabajo para mejorarlos en el siguiente ciclo, manteniendo fechas de entrega fijas.")
 
-        p.mb-5 Dentro de los roles hay una división en dos categorías fundamentales:
+        p.mb-5(data-aos="fade-left") Dentro de los roles hay una división en dos categorías fundamentales:
 
         .row.justify-content-center.mb-5(data-aos="fade")
-          .col-lg-5.col-md-6.mb-4
+          .col-lg-5.col-md-6.mb-4(data-aos="fade-right")
             .d-flex.w-100.flex-column.h-100
               .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
                 p.mb-0.text-white.text-center #[b Los roles centrales]
@@ -468,7 +505,7 @@
                   li
                     i.far.fa-check-circle
                     span Hacen referencia a los requeridos obligatoriamente para la creación de un producto están altamente comprometidos y de los cuales depende el éxito o no de un proyecto.
-          .col-lg-5.col-md-6.mb-4
+          .col-lg-5.col-md-6.mb-4(data-aos="fade-left")
             .d-flex.w-100.flex-column.h-100
               .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #6D18B9;border-top-left-radius: 8px;border-top-right-radius: 8px;")
                 p.mb-0.text-white.text-center #[b Los roles no centrales]
@@ -478,7 +515,7 @@
                     i.far.fa-check-circle
                     span Refieren a todo el personal interesado en el proyecto pueden interactuar con el equipo, pero no son los responsables del éxito del mismo, dentro de esta categoría entran los #[em stakeholders], directivos, gerentes, #[em marketing], asesores, etc.
 
-    p.mb-5 Por otro lado, hay tres roles centrales dentro del marco de trabajo de #[em Scrum] (SCRUMstudy, 2013) que se describen a continuación:
+    p.mb-5(data-aos="zoom-in-out") Por otro lado, hay tres roles centrales dentro del marco de trabajo de #[em Scrum] (SCRUMstudy, 2013) que se describen a continuación:
 
     p.mb-0(style="color: red;") estas tarjetas
     .crd_hover_txt.mb-4
@@ -489,7 +526,7 @@
         h4.mb-3 Reporte de ventas diarias
         p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
 
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-4(data-aos="flip-up")
       .col-auto.d-none.d-md-block
         img.mx-auto(src="@/assets/curso/temas/48.png",style="max-width: 85px;")
       .col
@@ -499,7 +536,7 @@
       .fondo-personalizado-2__contenido
         .row.justify-content-center.mb-5
           .col-lg-10
-            .fondo-personalizado-4
+            .fondo-personalizado-4(data-aos="flip-up")
               img.imgf-1(src="@/assets/curso/temas/15.png")
               img.imgf-2(src="@/assets/curso/temas/16.png")
               img.imgf-3(src="@/assets/curso/temas/29.png")
@@ -546,9 +583,9 @@
                       figure
                         img.mx-auto(src="@/assets/curso/temas/83.png",style="max-width: 295px;")
 
-        p.mb-5 Finalmente, el marco de trabajo #[em scrum] define un conjunto de artefactos que permiten registrar y gestionar información clave para asegurar los tres pilares fundamentales y proveen información valiosa durante todo el proceso de desarrollo de #[em software]. Entre los artefactos representativos de este se encuentran los siguientes:
+        p.mb-5(data-aos="fade") Finalmente, el marco de trabajo #[em scrum] define un conjunto de artefactos que permiten registrar y gestionar información clave para asegurar los tres pilares fundamentales y proveen información valiosa durante todo el proceso de desarrollo de #[em software]. Entre los artefactos representativos de este se encuentran los siguientes:
 
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="zoom-in-out")
           .col-lg-10
             PasosA.color-primario.pasos-a-personalizado-1(tipo="n")
               .row.align-items-center
@@ -579,9 +616,9 @@
       .burbuja.right(style="bottom: 0px;")
       .fondo-personalizado-burbuja__contenido
         .row.mb-5
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade")
             p.mb-0 Por otro lado, también es posible usar este mismo gráfico para representar el avance general del proyecto ubicando en el eje Y la cantidad total de horas o esfuerzo del #[em Product Backlog] y en el eje X el número de #[em Sprints] proyectados. Cada punto representa el total acumulado hasta ese #[em Sprint] y se une mediante una línea, lo que permite determinar visualmente si el flujo de trabajo está en una situación óptima o no respecto al tiempo restante para completar el #[em Sprint] actual.
-          .col-lg-5
+          .col-lg-5(data-aos="fade")
             figure
               img.mx-auto(src="@/assets/curso/temas/87.png",style="max-width: 502px;")
 
@@ -591,15 +628,15 @@
               .col-lg-6
                 .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Figura 4.] #[em Burndown Chart]
-                figure.mb-4.mb-lg-0
+                figure.mb-4.mb-lg-0(data-aos="flip-up")
                   .fondo-color-sistema-r.p-3.borde-8
                     img.mx-auto(src="@/assets/curso/temas/88.png",style="max-width: 552px;",alt="La figura presenta un gráfico de Sprint Burndown que muestra el progreso de trabajo en un proyecto a través del tiempo, comparando el avance planeado con el real y la tendencia basada en la actividad diaria. Incluye una referencia a la fuente de la imagen del año 2019.")
                   figcaption.mt-1(style="font-size: 14px;font-weight: normal;") Nota. Tomada de intl-blog.imgix.net (2019).
 
             .row.mb-5
-              .col-lg-7.mb-4.mb-lg-0
+              .col-lg-7.mb-4.mb-lg-0(data-aos="fade-up")
                 p.mb-0 #[b Tablero de #[em Scrum (Scrumboard)]:] es un elemento visual donde se integra la mayor parte de los elementos del marco de trabajo #[em Scrum], en él se indica la carga de trabajo, el estado actual de cada una de las actividades y sus respectivos responsables. Este es un elemento que se sincroniza de manera permanente y facilita la implementación de los pilares de transparencia, inspección y adaptabilidad. Si bien se aconseja el uso de un tablero, existen diferentes tipos de herramientas digitales que permiten la implementación de un tablero de #[em Scrum].
-              .col-lg-5
+              .col-lg-5(data-aos="fade-down")
                 figure
                   img.mx-auto(src="@/assets/curso/temas/89.png",style="max-width: 502px;")
             
@@ -607,15 +644,15 @@
               .col-lg-8
                 .titulo-sexto.color-acento-contenido
                   p.mb-0 #[b Figura 5.] Tablero de #[em Scrum]
-                figure
+                figure(data-aos="fade")
                   img.mx-auto(src="@/assets/curso/temas/90.png",style="max-width: 820px;",alt="La figura es un tablero de tareas de Scrum que ilustra las etapas de las tareas desde el backlog hasta su finalización, incluyendo columnas para tareas en progreso, revisión, pruebas y bloqueadas.")
 
-    p.mb-5 Adicionalmente es de vital importancia mencionar que entre los principales beneficios del marco de trabajo #[em Scrum] se encuentran los siguientes elementos:
+    p.mb-5(data-aos="fade-left") Adicionalmente es de vital importancia mencionar que entre los principales beneficios del marco de trabajo #[em Scrum] se encuentran los siguientes elementos:
 
     .fondo-personalizado-7.pos-1
       .fondo-personalizado-7__contenido
         .row.align-items-center
-          .col-lg-8
+          .col-lg-8(data-aos="fade-right")
             ul.lista-ul--color.lista-personalizada-2
               li
                 span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") a
@@ -632,7 +669,7 @@
               li
                 span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") e
                 span Los procesos de retrospectiva permiten establecer actividades permanentes de mejora continua en función de las experiencias del equipo.
-          .col-lg-4.order-first
+          .col-lg-4.order-first(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/91.png",style="max-width: 393px;")
     
