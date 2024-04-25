@@ -517,15 +517,32 @@
 
     p.mb-5(data-aos="zoom-in-out") Por otro lado, hay tres roles centrales dentro del marco de trabajo de #[em Scrum] (SCRUMstudy, 2013) que se describen a continuación:
 
-    p.mb-0(style="color: red;") estas tarjetas
-    .crd_hover_txt.mb-4
-      .crd_hover_txt--img
-        figure
-          img(src="@/assets/curso/temas/1.png",style="max-width: 100px;")
-      .crd_hover_txt--body
-        h4.mb-3 Reporte de ventas diarias
-        p.mb-0 Con este tipo de reportes, los gerentes podrán supervisar específicamente, la labor de cada vendedor y de esta manera, saber en qué les va bien y en cuáles actos hay que mejorar. Aquí también, va a encontrar si su fuerza de ventas está entendiendo sus estrategias y le sea más fácil incentivarlos a aumentar su productividad.
-
+    .row.justify-content-center.mb-1
+      .col-lg-4.col-md-8.mb-4(data-aos="flip-up")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/temas/105.png' alt="")
+          .crd_hover_txt--body
+            h5.mb-3.text-white.text-center Dueño del producto (#[em Product Owner])
+            p.mt-4.text-white.mb-0.text-center Persona con amplio conocimiento en el negocio del cliente, sus necesidades y las tendencias del mercado para el área específica. Encargado de maximizar el valor de negocio entregado al cliente y es el único responsable del control del #[em Product Backlog] (requerimientos) y su priorización. Representa al cliente en algunos procesos de demostración de avances y determina cuándo aprobar o no una entrega.
+      .col-lg-4.col-md-8.mb-4(data-aos="flip-down")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/temas/106.png' alt="")
+          .crd_hover_txt--body
+            h5.mb-3.text-white.text-center #[em Scrum Masterz]
+            p.mt-4.text-white.mb-0.text-center  Rol que se encarga de facilitar los procesos al interior del equipo de trabajo removiendo cualquier impedimento y apoyando procesos de empoderamiento personal. Debe velar porque los elementos propios del marco de trabajo #[em Scrum] se apliquen de manera correcta.
+      .col-lg-4.col-md-8.mb-4(data-aos="flip-up")
+        .crd_hover_txt
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/curso/temas/107.png' alt="")
+          .crd_hover_txt--body
+            h5.mb-3.text-white.text-center Equipo de desarrollo (#[em Developer Team])
+            p.mt-4.text-white.mb-0.text-center Responsables de la transformación de los requerimientos en código ejecutable a ser usado por el cliente. También responsables de la planificación de las iteraciones, establecimiento de características para tener en cuenta en la verificación de un requerimiento terminado y presentación de avances a los clientes. Generalmente es un equipo autoorganizado y autogestionado.
+ 
     .row.align-items-center.mb-4(data-aos="flip-up")
       .col-auto.d-none.d-md-block
         img.mx-auto(src="@/assets/curso/temas/48.png",style="max-width: 85px;")
