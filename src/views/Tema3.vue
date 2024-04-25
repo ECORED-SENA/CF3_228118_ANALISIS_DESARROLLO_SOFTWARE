@@ -612,7 +612,7 @@
 
     p.mb-5 Adicionalmente es de vital importancia mencionar que entre los principales beneficios del marco de trabajo #[em Scrum] se encuentran los siguientes elementos:
 
-    .fondo-personalizado-7.pos-1.mb-5
+    .fondo-personalizado-7.pos-1
       .fondo-personalizado-7__contenido
         .row.align-items-center
           .col-lg-8
@@ -636,32 +636,6 @@
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/91.png",style="max-width: 393px;")
     
-    .cont-titulo-decorativo.p-2.mt-5.mb-5
-      .row
-        .col-auto.pe-0
-          figure
-            img(src="@/assets/curso/temas/img-titulo-dec.png")
-        .col.align-self-end
-          h3.mt-3.mb-0.me-2 Planeación de proyectos de software
-    
-    .row.mb-4
-      .col-lg-7
-        p.mb-4 La planificación de proyectos de #[em software] comprende varias actividades destinadas a obtener una visión preliminar del #[em software] a desarrollar, lo que permite realizar estimaciones para determinar la viabilidad del proyecto en función de los recursos asignados.
-
-        .fondo-color-primario.borde-16.p-3
-          .d-flex.align-items-center.flex-column.flex-md-row
-            .col-auto
-              figure.mb-4.mb-md-0
-                img.mx-auto(src="@/assets/curso/temas/93.png",style="max-width: 72px;")
-            .col.ps-md-3
-              p.text-white.fw-bold.mb-0 De acuerdo con #[em SCRUMstudy] (2013), las actividades de planificación estipuladas en el marco de trabajo de #[em Scrum] se detallan en el siguiente recurso de aprendizaje:
-      .col-lg-5.order-first.order-lg-last
-        figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/92.png",style="max-width: 502px;")
-
-    
-    figure.mb-4.mb-lg-0
-      img.mx-auto(src="@/assets/curso/temas/imagen-vid-dev.png",style="max-width: 2000px;")
 
 
 

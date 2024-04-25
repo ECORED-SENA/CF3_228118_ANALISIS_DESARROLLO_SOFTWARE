@@ -80,6 +80,12 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Planeación de proyectos de <em>software</em>',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       {
