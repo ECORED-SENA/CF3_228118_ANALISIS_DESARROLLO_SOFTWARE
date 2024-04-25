@@ -182,7 +182,7 @@
       img.imgf-3(src="@/assets/curso/temas/102.png")
       img.imgf-4(src="@/assets/curso/temas/103.png")
       img.imgf-5(src="@/assets/curso/temas/104.png")
-      .fondo-personalizado-8__contenido.pe-3.pt-5
+      .fondo-personalizado-8__contenido.pe-3.ps-3.ps-lg-0.pt-5
         .row.align-items-end
           .col-lg-4
             figure.mb-4.mb-lg-0
