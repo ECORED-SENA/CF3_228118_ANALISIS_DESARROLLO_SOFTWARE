@@ -139,21 +139,21 @@ export default {
       referencia:
         'Henao, C. (2018). #1. ¿Qué son las metodologías tradicionales en el desarrollo de software?',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=i8CPD1dW88k',
+      link: 'https://youtu.be/i8CPD1dW88k?si=n_wD0LM5WHg59CoO',
     },
     {
       tema: '¿Qué son las metodologías ágiles en el desarrollo de Software?',
       referencia:
         'Henao, C. (2018b). #2. ¿Qué son las metodologías ágiles en el desarrollo de Software?',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=i8CPD1dW88k',
+      link: 'https://youtu.be/fHKsufzM7qQ?si=9HPATMJdNFGJeYHW',
     },
     {
       tema: 'SCRUM en 6 minutos | Metodologías Ágiles',
       referencia:
         'Henao, C. (2018d). #3. SCRUM en 6 minutos | Metodologías Ágiles.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=i8CPD1dW88k',
+      link: 'https://youtu.be/HhC75IonpOU?si=9zcH8SvcdPyHmgwJ',
     },
   ],
   glosario: [
@@ -191,8 +191,7 @@ export default {
     },
     {
       referencia: 'Intl-blog.imgix.net. (2019). Burndown-chart.',
-      link:
-        'https://intl-blog.imgix.net/wp-content/uploads/2019/12/Burndown-chart.png?auto=format%2Cenhance',
+      link: '',
     },
     {
       referencia:
@@ -207,7 +206,8 @@ export default {
     {
       referencia:
         'Maida, E, G., Pacienzia, J. (2015). Metodologías de desarrollo de software [en línea]. Tesis de Licenciatura en Sistemas y Computación. Facultad de Química e Ingeniería Fray Rogelio Bacon. Universidad Católica Argentina.',
-      link: 'https://bit.ly/3hJMwXP',
+      link:
+        'https://repositorio.uca.edu.ar/bitstream/123456789/522/1/metodologias-desarrollo-software.pdf',
     },
     {
       referencia:
@@ -290,6 +290,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',

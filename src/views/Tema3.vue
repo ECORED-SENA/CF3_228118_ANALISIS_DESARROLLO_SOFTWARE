@@ -532,7 +532,7 @@
             figure
               img(src='@/assets/curso/temas/106.png' alt="")
           .crd_hover_txt--body
-            h5.mb-3.text-white.text-center #[em Scrum Masterz]
+            h5.mb-3.text-white.text-center #[em Scrum Master]
             p.mt-4.text-white.mb-0.text-center  Rol que se encarga de facilitar los procesos al interior del equipo de trabajo removiendo cualquier impedimento y apoyando procesos de empoderamiento personal. Debe velar porque los elementos propios del marco de trabajo #[em Scrum] se apliquen de manera correcta.
       .col-lg-4.col-md-8.mb-4(data-aos="flip-up")
         .crd_hover_txt
@@ -562,7 +562,7 @@
                   .row.justify-content-center(titulo="<em>Sprint</em>")
                     .col-md-6.col-lg-6.mb-4.mb-md-0
                       p.mb-4.text-white #[em Sprint]
-                      p.text-white.mb-0 Es el corazón de scrum, una iteración acotada entre 2 y 4 semanas donde se realiza un ciclo completo de actividades de análisis, diseño, construcción y pruebas para desarrollar una versión del producto potencialmente. 
+                      p.text-white.mb-0 Es el corazón de #[em scrum], una iteración acotada entre 2 y 4 semanas donde se realiza un ciclo completo de actividades de análisis, diseño, construcción y pruebas para desarrollar una versión del producto potencialmente. 
       
                     .col-md-6.col-lg-4
                       figure
@@ -689,6 +689,8 @@
           .col-lg-4.order-first(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/91.png",style="max-width: 393px;")
+        
+        p.pb-4 Un elemento clave en su formación es la planeación de proyectos de #[em software] que aunado con los contenidos ya vistos le permite tener un panorama amplio sobre el tema.
     
 
 

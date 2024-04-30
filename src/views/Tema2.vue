@@ -62,7 +62,7 @@
             p Se establece cómo será construido el sistema para cumplir con los requerimientos identificados. Incluye la arquitectura del sistema, la selección de patrones de diseño, y la planificación de interfaces y experiencias de usuario.
           .borde-9.fondo-color-blanco.p-4(x="52%" y="45%" numero="+")
             .h5.mb-4.d-inline-block.p-2.pe-5.text-white(style="background-color: #3A1D71;") Implementación
-            p En esta fase, se escribe el código fuente del software, basado en el diseño previamente establecido. Cada componente es desarrollado y probado individualmente antes de ser integrado en el sistema mayor.
+            p En esta fase, se escribe el código fuente del #[em software], basado en el diseño previamente establecido. Cada componente es desarrollado y probado individualmente antes de ser integrado en el sistema mayor.
           .borde-9.fondo-color-blanco.p-4(x="52%" y="61%" numero="+")
             .h5.mb-4.d-inline-block.p-2.pe-5.text-white(style="background-color: #3A1D71;") Verificación
             p Esta etapa implica probar el sistema completo para validar que cumple con los requerimientos especificados. Incluye pruebas unitarias, de integración, de sistema y de aceptación del usuario.
@@ -84,7 +84,7 @@
               p Se establece cómo será construido el sistema para cumplir con los requerimientos identificados. Incluye la arquitectura del sistema, la selección de patrones de diseño, y la planificación de interfaces y experiencias de usuario.
             .borde-9.fondo-color-blanco.p-4(x="50%" y="46%" numero="+")
               .h5.mb-4.d-inline-block.p-2.pe-5.text-white(style="background-color: #3A1D71;") Implementación
-              p En esta fase, se escribe el código fuente del software, basado en el diseño previamente establecido. Cada componente es desarrollado y probado individualmente antes de ser integrado en el sistema mayor.
+              p En esta fase, se escribe el código fuente del #[em software], basado en el diseño previamente establecido. Cada componente es desarrollado y probado individualmente antes de ser integrado en el sistema mayor.
             .borde-9.fondo-color-blanco.p-4(x="61%" y="63%" numero="+")
               .h5.mb-4.d-inline-block.p-2.pe-5.text-white(style="background-color: #3A1D71;") Verificación
               p Esta etapa implica probar el sistema completo para validar que cumple con los requerimientos especificados. Incluye pruebas unitarias, de integración, de sistema y de aceptación del usuario.
@@ -296,20 +296,18 @@
         figure
           img.mx-auto(src="@/assets/curso/temas/59.png",style="max-width: 610px;")
     
-    .fondo-personalizado-2.mb-5
+    .fondo-personalizado-2.mb-5.pos-6
       .fondo-personalizado-2__contenido.pt-5.pb-4
         p.mb-4(data-aos="flip-up") Las disciplinas, por otra parte, representan un conjunto de actividades relacionadas con un área específica del proyecto y están inspiradas en el modelo en cascada. RUP establece las siguientes disciplinas según Kruchten (2003):
 
-        .row 
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade")
-            figure.mb-4
-              img.mx-auto(src="@/assets/curso/temas/60.png",style="max-width: 607px;")
-            p.mb-0 A continuación, se describen cada una de las disciplinas mencionadas y cómo estás aportan en el proceso.
-            p.mb-0 RUP propone una categorización de roles encargados de la realización de actividades dentro de cada una de las disciplinas que son:
-          .col-lg-6(data-aos="zoom-in-out")
+        .row.justify-content-center.mb-4
+          .col-lg-6
             .fondo-color-sistema-o.borde-7.p-4.shadow-1
               figure
-                img.mx-auto(src="@/assets/curso/temas/61.svg",style="max-width: 518px;")
+                img.mx-auto(src="@/assets/curso/temas/61.svg",style="max-width: 518px;", alt="La imagen presenta  una secuencia de fases en el desarrollo de proyectos: empieza con modelado de negocios, luego pasan a requerimientos, análisis y diseño, implementación, pruebas, despliegue, configuración y termina con administración del cambio y de proyectos.")
+        p.mb-0 A continuación, se describen cada una de las disciplinas mencionadas y cómo estás aportan en el proceso.
+        p.mb-0 RUP propone una categorización de roles encargados de la realización de actividades dentro de cada una de las disciplinas que son:
+
 
     .slider-personalizado-1.py-5.mb-5(data-aos="flip-up")
       img.imgf-1(src="@/assets/curso/temas/15.png")
@@ -345,13 +343,13 @@
               ul.lista-ul--color.lista-personalizada-1
                 li 
                   i.fas.fa-cog
-                  | Arquitectos de #[em software].
+                  span Arquitectos de #[em software].
                 li 
                   i.fas.fa-cog
                   | Diseñador de bases de datos.
                 li 
                   i.fas.fa-cog
-                  | Desarrollador #[em backend y frontend]. 
+                  span Desarrollador #[em backend y frontend]. 
                 li 
                   i.fas.fa-cog
                   | Cualquier otro rol relacionado con procesos de codificación o integración de código.
@@ -360,7 +358,7 @@
                 img.mx-auto(src="@/assets/curso/temas/19.png",style="max-width: 491px;")
           .row.justify-content-end
             .col-lg-6
-              p.mb-lg-5.mb-3.fw-bold Probadores
+              p.mb-lg-5.mb-3.fw-bold #[em Testers]
               ul.lista-ul--color.lista-personalizada-1
                 li 
                   i.fas.fa-cog
@@ -374,7 +372,7 @@
           .row.justify-content-end
             .col-lg-6
               p.mb-3.fw-bold Encargados y otros actores
-              p.mb-3 Incluye a todos los roles mencionados anteriormente en las categorías de Analistas, Desarrolladores y Probadores, reflejando su importancia en la gestión y operación de proyectos.
+              p.mb-3 Incluye a todos los roles mencionados anteriormente en las categorías de Analistas, Desarrolladores y #[em Testers], reflejando su importancia en la gestión y operación de proyectos.
               ul.lista-ul--color.lista-personalizada-1
                 li 
                   i.fas.fa-cog
@@ -387,7 +385,7 @@
                   | Especialista en herramientas.
                 li 
                   i.fas.fa-cog
-                  | #[em Stakeholders].
+                  span #[em Stakeholders].
                 li 
                   i.fas.fa-cog
                   | Cualquier otro rol no especificado anteriormente.

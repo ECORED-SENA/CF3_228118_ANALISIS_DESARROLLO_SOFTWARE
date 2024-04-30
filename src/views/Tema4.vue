@@ -17,14 +17,15 @@
               figure.mb-4.mb-md-0
                 img.mx-auto(src="@/assets/curso/temas/93.png",style="max-width: 72px;")
             .col.ps-md-3
-              p.text-white.fw-bold.mb-0 De acuerdo con #[em SCRUMstudy] (2013), las actividades de planificación estipuladas en el marco de trabajo de #[em Scrum] se detallan en el siguiente recurso de aprendizaje:
+              p.text-white.fw-bold.mb-0 De acuerdo con SCRUMstudy (2013), las actividades de planificación estipuladas en el marco de trabajo de #[em Scrum] se detallan en el siguiente recurso de aprendizaje:
       .col-lg-5.order-first.order-lg-last(data-aos="flip-up")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/92.png",style="max-width: 502px;")
 
     
-    figure.mb-4.mb-lg-0
+    figure
       img.mx-auto(src="@/assets/curso/temas/imagen-vid-dev.png",style="max-width: 2000px;")
+      figcaption Video. Planeación de proyectos de software
 
     
 

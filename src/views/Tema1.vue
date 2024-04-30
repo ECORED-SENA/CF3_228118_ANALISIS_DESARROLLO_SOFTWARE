@@ -11,7 +11,7 @@
       .fondo-personalizado-2__contenido
         .row.mb-4.pt-4
           .col-lg-8.mb-4.mb-lg-0
-            p.mb-4(data-aos="fade-up") Es importante aclarar que existe un gran número de definiciones sobre lo que es una metodología para evitar cualquier confusión en este material se utilizará la definición dada por Maida y Pacienzia (2015), quienes indican que:
+            p.mb-4(data-aos="fade-up") Es importante aclarar que existe un gran número de definiciones sobre lo que es una metodología, para evitar cualquier confusión en este material se utilizará la definición dada por Maida y Pacienzia (2015), quienes indican que:
 
             .fondo-color-primario.borde-16.p-3(data-aos="fade-down")
               .d-flex.align-items-center.flex-column.flex-md-row
