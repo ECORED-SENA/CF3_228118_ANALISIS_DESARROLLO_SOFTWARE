@@ -23,9 +23,12 @@
           img.mx-auto(src="@/assets/curso/temas/92.png",style="max-width: 502px;")
 
     
-    figure
-      img.mx-auto(src="@/assets/curso/temas/imagen-vid-dev.png",style="max-width: 2000px;")
-      figcaption Video. Planeación de proyectos de software
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-12(data-aos="fade-left")     
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/85WG4gS48x8?si=kMAfo3yH6GFz1PjR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Planeación de proyectos de software
 
     
 
