@@ -82,7 +82,7 @@
                 span La simplicidad como arte de maximizar la cantidad de trabajo que se hace es esencial.
               li
                 span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") k
-                span Las mejores arquitecturas, requisitos y diseños emergen de equipos que se auto organizan.
+                span Las mejores arquitecturas, requisitos y diseños emergen de equipos que se autoorganizan.
               li
                 span.fondo-color-acento-contenido.px-2.fw-bold(style="height: max-content;min-width: 24px;text-align: center;") l
                 span En intervalos regulares, el equipo reflexiona sobre la forma de ser más efectivo y ajusta su conducta en consecuencia.
@@ -248,7 +248,7 @@
     .row.justify-content-center.mb-4
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          p.mb-0 #[b Figura 2.] Fases definidas en RAD
+          p.mb-0 #[b Figura 3.] Fases definidas en RAD
 
     .fondo-personalizado-2.pos-2.mb-4(data-aos="zoom-out-up")
       .fondo-personalizado-2__contenido
@@ -488,10 +488,11 @@
         .row.justify-content-center.mb-5
           .col-lg-10
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 3.] Marco de trabajo #[em Scrum]
+              p.mb-0 #[b Figura 4.] Marco de trabajo #[em Scrum]
             .fondo-color-sistema-r.borde-11.p-4
               figure
                 img.mx-auto(src="@/assets/curso/temas/78.png",style="max-width: 964px;",alt="El diagrama describe el proceso de Scrum, donde el Product Owner gestiona las prioridades del proyecto que el equipo acuerda completar en ciclos de 1 a 4 semanas llamados Sprints. Se realizan reuniones diarias para supervisar el avance y al final del Sprint se revisa el trabajo terminado y se evalúan los métodos de trabajo para mejorarlos en el siguiente ciclo, manteniendo fechas de entrega fijas.")
+              figcaption Nota. Adaptada de ITMadrid Digital School.
 
         p.mb-5(data-aos="fade-left") Dentro de los roles hay una división en dos categorías fundamentales:
 
@@ -634,7 +635,7 @@
       .fondo-personalizado-burbuja__contenido
         .row.mb-5
           .col-lg-7.mb-4.mb-lg-0(data-aos="fade")
-            p.mb-0 Por otro lado, también es posible usar este mismo gráfico para representar el avance general del proyecto ubicando en el eje Y la cantidad total de horas o esfuerzo del #[em Product Backlog] y en el eje X el número de #[em Sprints] proyectados. Cada punto representa el total acumulado hasta ese #[em Sprint] y se une mediante una línea, lo que permite determinar visualmente si el flujo de trabajo está en una situación óptima o no respecto al tiempo restante para completar el #[em Sprint] actual.
+            p.mb-0 Por otro lado, también es posible usar este mismo gráfico para representar el avance general del proyecto, ubicando en el eje Y la cantidad total de horas o esfuerzo del #[em Product Backlog] y en el eje X el número de #[em Sprints] proyectados. Cada punto representa el total acumulado hasta ese #[em Sprint] y se une mediante una línea, lo que permite determinar visualmente si el flujo de trabajo está en una situación óptima o no respecto al tiempo restante para completar el #[em Sprint] actual.
           .col-lg-5(data-aos="fade")
             figure
               img.mx-auto(src="@/assets/curso/temas/87.png",style="max-width: 502px;")
@@ -644,7 +645,7 @@
             .row.justify-content-center.mb-5
               .col-lg-6
                 .titulo-sexto.color-acento-contenido
-                  p.mb-0 #[b Figura 4.] #[em Burndown Chart]
+                  p.mb-0 #[b Figura 5.] #[em Burndown Chart]
                 figure.mb-4.mb-lg-0(data-aos="flip-up")
                   .fondo-color-sistema-r.p-3.borde-8
                     img.mx-auto(src="@/assets/curso/temas/88.png",style="max-width: 552px;",alt="La figura presenta un gráfico de Sprint Burndown que muestra el progreso de trabajo en un proyecto a través del tiempo, comparando el avance planeado con el real y la tendencia basada en la actividad diaria. Incluye una referencia a la fuente de la imagen del año 2019.")
@@ -660,7 +661,7 @@
             .row.justify-content-center.mb-5
               .col-lg-8
                 .titulo-sexto.color-acento-contenido
-                  p.mb-0 #[b Figura 5.] Tablero de #[em Scrum]
+                  p.mb-0 #[b Figura 6.] Tablero de #[em Scrum]
                 figure(data-aos="fade")
                   img.mx-auto(src="@/assets/curso/temas/90.png",style="max-width: 820px;",alt="La figura es un tablero de tareas de Scrum que ilustra las etapas de las tareas desde el backlog hasta su finalización, incluyendo columnas para tareas en progreso, revisión, pruebas y bloqueadas.")
 

@@ -120,7 +120,7 @@
 
                 li 
                   i.fas.fa-cube
-                  | Es fácil elaborar cronogramas de trabajo en base al desarrollo de las actividades de cada fase.
+                  | Es fácil elaborar cronogramas de trabajo con base al desarrollo de las actividades de cada fase.
           .col-lg-4.col-md-6.mb-4(data-aos="fade-down")
             .fondo-color-primario.borde-16.p-4.h-100
               .d-flex.justify-content-between.align-items-center.mb-1
@@ -130,7 +130,7 @@
               ul.lista-ul--color.text-white
                 li 
                   i.fas.fa-cube
-                  | No se acopla muy bien a proyectos complejos con múltiples equipos trabajando en paralelo ya que las fases normalmente se traslapan y es difícil diferenciarlas.
+                  | No se acopla muy bien a proyectos complejos con múltiples equipos trabajando en paralelo, ya que las fases normalmente se traslapan y es difícil diferenciarlas.
 
                 li 
                   i.fas.fa-cube
@@ -138,12 +138,12 @@
 
                 li 
                   i.fas.fa-cube
-                  | Los usuarios finales y clientes normalmente son integrados al final del proceso lo que impide tener realimentación y ajustes en etapas tempranas.
+                  | Los usuarios finales y clientes normalmente son integrados al final del proceso, lo que impide tener realimentación y ajustes en etapas tempranas.
 
                 li 
                   i.fas.fa-cube
                   | Existen fallos que solo son detectados cuando el sistema entra en funcionamiento, lo que puede ser desastroso para un proyecto que sigue este modelo.
-    p.mb-5(data-aos="fade-right") El modelo en cascada define cuatro grupos de roles típicos los cuales se mencionan a continuación:
+    p.mb-5(data-aos="fade-right") El modelo en cascada define cuatro grupos de roles típicos, los cuales se mencionan a continuación:
 
     .fondo-personalizado-2.pt-5.mb-5(style="padding-bottom: 4rem;")
       .fondo-personalizado-2__contenido
@@ -154,7 +154,7 @@
               .tarjeta
                 .p-4
                   h4.text-center Desarrolladores
-                  p Es el rol más importante en la metodología cascada ya que son los encargados directos de la creación de código. 
+                  p Es el rol más importante en la metodología cascada, ya que son los encargados directos de la creación de código. 
           .col-lg-3.col-md-6.mb-5(data-aos="fade-up")
             .tarjeta-avatar.estilo-tarjetas-personalizado-1
               img(src='@/assets/curso/temas/6.png')
@@ -209,6 +209,7 @@
         
         figure.mb-4.mb-lg-0(data-aos="zoom-in-out")
           img.mx-auto(src="@/assets/curso/temas/57.png",style="max-width: 1030px;",alt="La figura presenta la estructura del Proceso Racional Unificado, un método de desarrollo de software que se desarrolla en fases y se organiza en iteraciones, donde diferentes procesos de trabajo se llevan a cabo con variada intensidad a lo largo del proyecto.")
+        figcaption Nota. Tomada de Man, Hafriz, Nural, Maizura, Noor, Wan, Bakar y Man (2008).
     
     p.mb-4(data-aos="fade-left") A continuación, se describen las fases y su impacto en el proceso, por lo que se le invita a revisar el siguiente recurso de aprendizaje.
 
@@ -239,7 +240,7 @@
                 img.mx-auto(src="@/assets/curso/temas/13.png",style="max-width: 400px;")
             .col-lg-6
               p.mb-4.fw-bold Construcción
-              p.mb-0 La tercera fase corresponde a la construcción, donde se centran en las actividades relacionadas con la construcción del producto. Normalmente esta fase está constituida por varias iteraciones donde en cada una de ellas se desarrollan un subconjunto de requerimientos que normalmente están especificados como casos de uso.
+              p.mb-0 La tercera fase corresponde a la construcción, donde se centran en las actividades relacionadas con la construcción del producto. Normalmente, esta fase está constituida por varias iteraciones, donde en cada una de ellas se desarrolla un subconjunto de requerimientos que normalmente están especificados como casos de uso.
       .fondo-personalizado-3(titulo="Transición" :icono="require('@/assets/curso/temas/10.png')")
         .fondo-personalizado-3__contenido.py-5.px-4.px-lg-0
           .row.justify-content-center
@@ -248,7 +249,7 @@
                 img.mx-auto(src="@/assets/curso/temas/14.png",style="max-width: 400px;")
             .col-lg-6
               p.mb-4.fw-bold Transición
-              p.mb-0 La cuarta fase se desarrollan principalmente las disciplinas de pruebas y despliegue, es decir las actividades encaminadas a garantizar que el producto esté listo para entrega a sus usuarios.
+              p.mb-0 La cuarta fase se desarrolla principalmente las disciplinas de pruebas y despliegue, es decir, las actividades encaminadas a garantizar que el producto esté listo para entrega a sus usuarios.
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-8
@@ -302,9 +303,11 @@
 
         .row.justify-content-center.mb-4
           .col-lg-6
+            .titulo-sexto.color-acento-contenido
+              p.mb-0 #[b Figura 2.] Secuencia de las fases en el desarrollo de proyectos
             .fondo-color-sistema-o.borde-7.p-4.shadow-1
               figure
-                img.mx-auto(src="@/assets/curso/temas/61.svg",style="max-width: 518px;", alt="La imagen presenta  una secuencia de fases en el desarrollo de proyectos: empieza con modelado de negocios, luego pasan a requerimientos, análisis y diseño, implementación, pruebas, despliegue, configuración y termina con administración del cambio y de proyectos.")
+                img.mx-auto(src="@/assets/curso/temas/61.svg",style="max-width: 518px;", alt="La imagen presenta una secuencia de fases en el desarrollo de proyectos: empieza con modelado de negocios, luego pasan a requerimientos, análisis y diseño, implementación, pruebas, despliegue, configuración y termina con administración del cambio y de proyectos.")
         p.mb-0 A continuación, se describen cada una de las disciplinas mencionadas y cómo estás aportan en el proceso.
         p.mb-0 RUP propone una categorización de roles encargados de la realización de actividades dentro de cada una de las disciplinas que son:
 
